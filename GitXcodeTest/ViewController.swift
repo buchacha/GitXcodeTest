@@ -6,6 +6,7 @@
 //  Copyright © 2020 Егор Красильников. All rights reserved.
 //
 
+// https://www.youtube.com/watch?v=9jeQQ7xNb4U
 import UIKit
 
 class ViewController: UIViewController {
@@ -15,6 +16,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print("Hello world")
+        let mapViewController = MapViewController()
+        print(mapViewController)
         // Do any additional setup after loading the view.
     }
 
